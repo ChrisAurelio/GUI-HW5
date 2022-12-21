@@ -1,0 +1,146 @@
+/*
+GitHub: ChrisAurelio
+Name: Chris Aurelio
+Email: christopher_aurelio@student.uml.edu
+*/
+
+/* Height of the page */
+html {
+    height: 100%;
+}
+
+/* Styles for the entire page */
+body {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    padding: 0% 10% 0% 10%;
+    min-height: 100%;
+    min-width: 1100px;
+    background-color: burlywood;
+}
+
+label {
+    margin-left: 5px;
+}
+
+/* Styles for the paragraph */
+p {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+    color: black;
+}
+
+/* Styles for the title of the page */
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Styles for the colored bar on the page */
+hr.rounded {
+    border-top: 10px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Styles for the Next and Restart buttons */
+button {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Styles for the buttons on hover */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Styles for the box around the game info */
+#gameInfo {
+    width: fit-content;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    background-color: white;
+}
+
+/* Styles for the game info itself */
+#gameInfo div {
+    display: inline-block;
+}
+
+/* Styles for game board div that houses the squares */
+#gameBoard {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for the regular game squares */
+.regular {
+    height: 76px;
+    width: 76px;
+    margin: -2px;
+    background-image: url(../js/graphics_data/BoardRegular.png);
+    display: inline-block;
+}
+
+/* Styles for the double word game squares */
+.doubleWord {
+    height: 76px;
+    width: 76px;
+    margin: -2px;
+    background-image: url(../js/graphics_data/BoardDoubleWord.png);
+    display: inline-block;
+}
+
+/* Styles for the double letter game squares */
+.doubleLetter {
+    height: 76px;
+    width: 76px;
+    margin: -2px;
+    background-image: url(../js/graphics_data/BoardDoubleLetter.png);
+    display: inline-block;
+}
+
+/* Styles for the tile deck that holds the game tiles */
+#tileDeck {
+    height: 182px;
+    width: 640px;
+    margin: auto;
+    background-image: url(../js/graphics_data/scrabble-tile-holder-406774_640.png);
+}
+
+/* Styles for the game tiles */
+.tile {
+    height: 70px;
+    width: 70px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Styles for the div that holds the buttons */
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for the Next Word button */
+#next {
+    width: 100px;
+    margin-right: 5px;
+}
+
+/* Styles for the Restart button */
+#restart {
+    width: 100px;
+    margin-left: 5px;
+}
